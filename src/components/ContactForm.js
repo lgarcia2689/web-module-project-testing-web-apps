@@ -121,9 +121,11 @@ const ContactForm = () => {
 
         {displayData && <DisplayComponent form={form}/>}
 
-        <input type="submit" />
+        <input id="submit"type="submit" />
       </form>
     </div>
+
+    
   );
 };
 
